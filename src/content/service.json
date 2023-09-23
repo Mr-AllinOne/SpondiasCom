@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "FINTECH",
+        "description": "Fintech, or financial technology, refers to the technological innovation in the design and delivery of financial services and products.",
+        "image": "fintech.png",
+        "alt": "fintech technology"
+    },
+    {
+        "id": 2,
+        "title": "HEALTH",
+        "description": "Software Health indicates how your application complies with programming best practices that increase resiliency, improve agility and reduce complexity.",
+        "image": "health.png",
+        "alt": "health check"
+    },
+    {
+        "id": 3,
+        "title": "EDUCATION ",
+        "description": "software that is designed to be used primarily for a given function is referred to as a subject specific tool. A tool is any piece of software or utility that facilitates the development of applicant",
+        "image": "Education.png",
+        "alt": "education life"
+    }
+]

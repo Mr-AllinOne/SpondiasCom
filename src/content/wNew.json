@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "image":"ctAl.png",
+        "title":"AI",
+        "description":"Fintech, or financial technology, refers to the technological innovation in the design and delivery of financial services and products.",
+        "alt":"ctAl"
+    },
+    {
+        "id":2,
+        "image":"ctTran.png",
+        "title":"CT Traning",
+        "description":"Fintech, or financial technology, refers to the technological innovation in the design and delivery of financial services and products.",
+        "alt":"ctTran"
+    },
+    {
+        "id":3,
+        "image":"ctTech.png",
+        "title":"New Technology",
+        "description":"Fintech, or financial technology, refers to the technological innovation in the design and delivery of financial services and products.",
+        "alt":"New Technology"
+    }
+]

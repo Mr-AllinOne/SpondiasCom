@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-image: url("./assets/bg.png");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@layer components {
+    .link-style {
+        @apply px-2 transition-all hover:text-gray-300;
+    }
+    .backdropImge{
+        background-image: url('./assets/imageBack.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}
