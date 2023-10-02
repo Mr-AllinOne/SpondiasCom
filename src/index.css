@@ -14,9 +14,55 @@
     .link-style {
         @apply px-2 transition-all hover:text-gray-300;
     }
-    .backdropImge{
+
+    .backdropImge {
         background-image: url('./assets/imageBack.jpeg');
         background-size: cover;
         background-position: center;
     }
+
+    /* .inputStyle {
+        @apply w-[300px] py-2 pl-2 rounded-[4px] placeholder: italic placeholder:pl-2 focus:outline-none focus:border-black-500
+    } */
+}
+
+.boxShadow {
+    box-shadow: 6px 6px 8px 0px rgba(108, 180, 238, 0.25), -6px -6px 8px 0px rgba(108, 180, 238, 0.25);
+}
+
+.background {
+    background-color: rgba(255, 255, 255, 0.059);
+    backdrop-filter: blur(15.02777862548828px);
+    background-blend-mode: overlay;
+}
+
+.backgroundGrand {
+    border-radius: 11px;
+    background: linear-gradient(89deg, #469BE0 12.7%, rgba(70, 155, 224, 0.87) 55.57%, rgba(70, 155, 224, 0.00) 108.7%);
+}
+
+.gps {
+    border-radius: 16.252px;
+    border: 1.083px solid #41BFFA;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(9.455892562866211px);
+}
+
+.textAbout {
+    background: linear-gradient(90deg, #469BE0 0%, #00345C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.backgButton {
+    background: linear-gradient(90deg, #469BE0 0%, #00345C 100%);
+}
+
+.userBack {
+    background: linear-gradient(283deg, #469BE0 -45.07%, #A3D0F3 102.36%);
+}
+
+input .inputError {
+    border-color: rgb(184, 106, 106);
 }

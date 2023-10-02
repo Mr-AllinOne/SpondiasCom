@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Nabil",
+        "title": "CHIEF EXECUTIVE OFFICER",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "role": "COE",
+        "image": "nabil.png",
+        "alt": "nabil"
+    },
+    {
+        "id": 2,
+        "name": "Syam",
+        "title": "CHIEF OPERATING OFFICER",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "role": "COO",
+        "image": "shyma.png",
+        "alt": "shym"
+    },
+    {
+        "id": 3,
+        "name": "Oliver",
+        "title": "CHIEF STRATEGY OFFICER",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "role": "CSO",
+        "image": "olive.png",
+        "alt": "olive"
+    },
+    {
+        "id": 4,
+        "name": "Martin",
+        "title": "CHIEF STRATEGY OFFICER",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "role": "CSO",
+        "image": "martin.png",
+        "alt": "olive"
+    }
+]

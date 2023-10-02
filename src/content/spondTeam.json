@@ -2,6 +2,8 @@
     {
         "id": 1,
         "name": "Nabil",
+        "title": "",
+        "description": "",
         "role": "COE",
         "image": "nabil.png",
         "alt": "nabil"
@@ -9,15 +11,19 @@
     {
         "id": 2,
         "name": "Syam",
+        "title": "",
+        "description": "",
         "role": "COO",
         "image": "shyma.png",
         "alt": "shym"
     },
     {
         "id": 3,
-        "name":"Oliver",
-        "role":"CSO",
-        "image":"olive.png",
-        "alt": "olive"
+        "name": "Oliver",
+        "title": "",
+        "description": "",
+        "role": "CSO",
+        "image": "martin.jpg",
+        "alt": "martin"
     }
 ]

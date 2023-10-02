@@ -1,8 +1,25 @@
-import React from 'react'
+
+
+import {
+  Header,
+  HeroAbout,
+  AboutMain,
+  SponTeams,
+  Footer,
+  Informtion
+} from './index'
+
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Header />
+      <HeroAbout />
+      <AboutMain />
+      <SponTeams />
+      <Informtion />
+      <Footer />
+    </div>
   )
 }
 

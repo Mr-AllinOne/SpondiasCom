@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import ServiceDropDown from './Services/ServiceDropDown';
 
 const Header = () => {
     const [navshow, setNavshow] = useState(false);
@@ -11,11 +12,8 @@ const Header = () => {
     return (
 
         <header className='flex justify-between  items-center  h-24 max-w-[1240px] mx-auto px-10'>
-            
-            <div className >
-                {/* <div className='bg-blue-100 w-20 h-20 p-2 z-[-250]'>
-                </div> */}
 
+            <div className >
                 <img
                     src='./logos/logo_page.png'
                     alt='logo'
@@ -28,10 +26,13 @@ const Header = () => {
                     className={({ isActive }) => isActive ? 'text-[#4fa1f4] font-semibold underline ' : 'px-4'}
                     end
                 >Home</NavLink>
-                <NavLink
-                    to="/services"
-                    className={({ isActive }) => isActive ? 'text-[#4fa1f4] font-semibold underline ' : 'px-4'}
-                >Services</NavLink>
+                <div >
+                    <ServiceDropDown />
+                </div>
+                {/* <NavLink
+                    to="#"
+                    className={({ isActive }) => isActive ? 'text-[#4fa1f4] font-semibold underline ' : 'px-4 '}
+                ></NavLink> */}
                 <NavLink
                     to="/clinet"
                     className={({ isActive }) => isActive ? 'text-[#4fa1f4] font-semibold underline ' : 'px-4'}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "approuch.jpeg",
+        "title": "Our approach ",
+        "description": "We deliver innovative solutions – to simplify the connections between businesses and customers, governments and citizens. And we believe ‘good’ can always be made ‘better’."
+    },
+    {
+        "id": 2,
+        "image": "mission.jpeg",
+        "title": "Mission",
+        "description": "Your IT mission is a concise and specific statement that describes what you do as an IT organization, how you do it, and why you do it. It should reflect your IT core functions, capabilities, and services, as well as your value proposition and differentiation."
+    },
+    {
+        "id": 3,
+        "image": "vission.jpeg",
+        "title": "Vision",
+        "description": "A vision statement provides a brief description of a company's long-term goals. It's typically ambitious and communicates how the company plans to make a difference in the world. Think of it as a roadmap for making decisions that align with your company's philosophy and objectives."
+    }
+]

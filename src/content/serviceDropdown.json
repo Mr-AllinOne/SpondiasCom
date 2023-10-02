@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Fintech",
+        "image": "FIntech.jpeg"
+    },
+    {
+        "name": "Transport",
+        "image": "transport2.png"
+    },
+    {
+        "name": "Logistic",
+        "image": "logistic.jpg"
+    },
+    {
+        "name": "Juctice",
+        "image": "justicee.jpeg"
+    },
+    {
+        "name": "Health",
+        "image": "healthy.jpeg"
+    },
+    {
+        "name": "Education",
+        "image": "education.jpg"
+    },
+    {
+        "name": "Retial",
+        "image": "retatil.jpeg"
+    },
+    {
+        "name": "CRM",
+        "image": "one.jpeg"
+    }
+]
