@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "care.png",
+        "title": "Land Transport",
+        "description": "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.",
+        "alt": "Land Transport"
+    },
+    {
+        "id": 2,
+        "image": "airPlan.png",
+        "title": "Ship Transport",
+        "description": "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.",
+        "alt": "Ship Transport"
+    },
+    {
+        "id": 3,
+        "image": "ship.png",
+        "title": "Air Transport",
+        "description": "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.",
+        "alt": "Air Transport"
+    }
+]

@@ -12,11 +12,11 @@ const Home = () => {
         <div className='relative'>
             <Header />
             <Herohome />
-            <Services />
-            <Clinet />
+             <Services />
+            {/* <Clinet />
             <Wnews />
             <SponTeams />
-            <Footer />
+            <Footer />  */}
         </div>
     )
 }

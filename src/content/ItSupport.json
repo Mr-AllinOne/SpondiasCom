@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "BusniessIt.png",
+        "title": "Customized Business IT ",
+        "description": "We work with many types of IT customers with unique needs and very different budget levels. We craft an IT plan and budget for each customer to help them get the best value and strategically select their services and products."
+    },
+    {
+        "id": 2,
+        "image": "personalUser.png",
+        "title": "Personal User Support",
+        "description": "We provide on-site expert, friendly technical support to business, home and home office users. Unlike repair shops, we have a strong emphasis on explanation, friendly communication, and training."
+    },
+    {
+        "id": 3,
+        "image": "FriendLocal.png",
+        "title": "Friendly Local Helpdesk",
+        "description": "We provide on-site expert, friendly technical support to business, home and home office users. Unlike repair shops, we have a strong emphasis on explanation, friendly communication, and training."
+    }
+]

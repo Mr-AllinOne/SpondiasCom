@@ -1,34 +1,42 @@
 [
     {
         "name": "Fintech",
-        "image": "FIntech.jpeg"
+        "image": "FIntech.jpeg",
+        "path": "fintech"
     },
     {
         "name": "Transport",
-        "image": "transport2.png"
+        "image": "transport2.png",
+        "path": "transportion"
     },
     {
         "name": "Logistic",
-        "image": "logistic.jpg"
+        "image": "logistic.jpg",
+        "path": ""
     },
     {
         "name": "Juctice",
-        "image": "justicee.jpeg"
+        "image": "justicee.jpeg",
+        "path": "justice"
     },
     {
         "name": "Health",
-        "image": "healthy.jpeg"
+        "image": "healthy.jpeg",
+        "path": ""
     },
     {
         "name": "Education",
-        "image": "education.jpg"
+        "image": "education.jpg",
+        "path": "education"
     },
     {
         "name": "Retial",
-        "image": "retatil.jpeg"
+        "image": "retatil.jpeg",
+        "path": ""
     },
     {
         "name": "CRM",
-        "image": "one.jpeg"
+        "image": "one.jpeg",
+        "path": "crm"
     }
 ]

@@ -3,24 +3,34 @@ import { Link } from 'react-router-dom'
 
 const Herohome = () => {
     return (
-        <div className=' flex flex-1 h-[500px] justify-center items-center max-w-[1240px] mx-auto px-10 w-full'>
+        <div className=' flex flex-1 h-[500px] justify-center items-center max-w-[1240px] mx-auto md:px-10 w-full'>
             <div className='
-                h-70 mr-2  
-                text-black 
-                w-[50%]
-                flex
-                flex-col
-                p-10
-                space-y-2
+                w-[200px]
+                px-2
+
+
+
+
+
+
+
+                md:h-70 mr-2  
+                md:text-black 
+                md:w-[50%]
+                md:flex
+                md:flex-col
+                md:p-10
+                md:space-y-2
+                md:mb-4
                 '
             >
-                <span className='text-4xl font-semibold tracking-wider'>
+                <span className='text-4xl  md:text-[50.139px] font-semibold md:tracking-wider'>
                     Making Your
                 </span>
-                <span className='text-5xl font-bold tracking-normal text-[#4fa1f4] '>
+                <span className='text-[29px] font-bold  text-[#4fa1f4] '>
                     Business flourish
                 </span>
-                <p>
+                <p className=''>
                     Lorem ipsum dolor sit amet
                     consectetur adipisicing elit.
                     Quisquam eum voluptate iste sunt.
@@ -31,11 +41,18 @@ const Herohome = () => {
                 <div className='flex px-2 py-2 space-x-2   '>
                     <button className='
                         bg-[#4fa1f4]
-                        px-2 py-1
-                        sm:px-4 py-2
+                        
+                        px-[5px]
                         rounded-lg
-                        text-[18px]
-                        text-white 
+                        text-[16px]
+                        text-white
+
+                        md:bg-[#4fa1f4]
+                        md:px-2 md:py-1
+                        sm:px-4 py-2
+                        md:rounded-lg
+                        md:text-[18px]
+                        md:text-white 
                     '
                     >
                         <Link to='/about'>About Us</Link>
@@ -45,9 +62,9 @@ const Herohome = () => {
                         border-solid 
                         border-2 
                         border-[#4fa1f4]
-                        
                         rounded-lg
-                        sm:px-4 py-2 
+                        
+                        md:px-4 md:py-2 
                         '
                     >
                         Contect Us
@@ -55,9 +72,10 @@ const Herohome = () => {
                 </div>
 
             </div>
-            <div className=' px-2 h-[450px] bg-contain text-white w-[50%] '
-                style={{ backgroundImage: 'url(./images/amico.png)' }}
+            <div className='w-[50%] h-[385px]  md:w-[50%]'
+            //style={{ backgroundImage: 'url(./images/amico.png)' }}
             >
+                <img src="./images/amico.png" alt="" className='h-[450px] py-[70px] w-full bg-center bg-center md:w-[500px] md:px-[40px] md:h-[385px] md:bg-contain  ' />
             </div>
         </div>
     )

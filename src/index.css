@@ -21,13 +21,22 @@
         background-position: center;
     }
 
-    /* .inputStyle {
-        @apply w-[300px] py-2 pl-2 rounded-[4px] placeholder: italic placeholder:pl-2 focus:outline-none focus:border-black-500
-    } */
+    .bgLinear {
+        background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    }
+
+
 }
 
 .boxShadow {
     box-shadow: 6px 6px 8px 0px rgba(108, 180, 238, 0.25), -6px -6px 8px 0px rgba(108, 180, 238, 0.25);
+}
+.backGroundStudent{
+    border-radius: 16.252px;
+        border: 1.083px solid #41BFFA;
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0px 17.56094px 16.2101px 0px rgba(11, 39, 40, 0.07);
+        backdrop-filter: blur(9.455892562866211px);
 }
 
 .background {
@@ -55,6 +64,7 @@
     -webkit-text-fill-color: transparent;
 }
 
+
 .backgButton {
     background: linear-gradient(90deg, #469BE0 0%, #00345C 100%);
 }
@@ -66,3 +76,6 @@
 input .inputError {
     border-color: rgb(184, 106, 106);
 }
+
+
+
